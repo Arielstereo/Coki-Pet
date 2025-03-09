@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Dog Chow Adultos",
+    "descripcion": "Mordida mediana, Triple Protein, sin colorantes artificiales.",
+    "precio": "3200 x kg",
+    "promo": 5800,
+    "marca": "Dog Chow",
+    "img": "/dogchow.webp"
+  },
+  {
+    "nombre": "Dogui Adultos",
+    "descripcion": "Razas pequeñas, con carne, pollo y vegetales.",
+    "precio": "2200 x kg",
+    "promo": 3800,
+    "marca": "Dogui",
+    "img": "/dogui.png"
+  },
+  {
+    "nombre": "Vital Can Adultos",
+    "descripcion": "Alimento premium, razas pequeñas hasta los 7 años.",
+    "precio": "2500 x kg",
+    "promo": 4400,
+    "marca": "Vital",
+    "img": "/vital.webp"
+  },
+  {
+    "nombre": "Excellent Adultos",
+    "descripcion": "Alimento balanceado, razas medianas, con pollo y arroz.",
+    "precio": "5000 x kg",
+    "promo": 9200,
+    "marca": "Excellent",
+    "img": "/excelent.webp"
+  },
+  {
+    "nombre": "Eukanuba Adultos",
+    "descripcion": "Razas medianas, alimento premium, sabor pollo.",
+    "precio":"4800 x kg",
+    "promo": 9000,
+    "marca": "Eukanuba",
+    "img": "/euka.webp"
+  }
+]
