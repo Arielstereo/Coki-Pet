@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
+    <div className="bg-orange-100">
       <Hero />
       <Brand />
       <Products />

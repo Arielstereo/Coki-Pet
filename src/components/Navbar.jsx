@@ -11,7 +11,7 @@ const Navbar = () => {
         Entregas sin cargo en Monte Castro a partir de{" "}
         <span className="text-yellow-300 animate-pulse">$10.000</span>
       </div>
-      <nav className="hidden md:flex justify-between items-center text-slate-800 text-lg pt-4 px-32">
+      <nav className="hidden md:flex justify-between items-center text-slate-800 text-lg py-4 px-32 bg-orange-200">
         <a
           href="/"
           className="icon-[fa-solid--paw] w-12 h-12"
@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <nav className="flex md:hidden m-4">
+      <nav className="flex md:hidden p-4 bg-orange-200">
         {isOpen ? (
           <div className="flex flex-col">
             <button

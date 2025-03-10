@@ -21,7 +21,7 @@ const Products = () => {
   };
 
   return (
-    <div id="food" className="container mx-auto">
+    <div id="food" className="container mx-auto bg-orange-50">
       <div className="flex gap-2 md:gap-4 justify-center items-center">
         <h2 className="py-16 md:py-32 text-3xl md:text-6xl font-semibold">
           Nuestros productos
