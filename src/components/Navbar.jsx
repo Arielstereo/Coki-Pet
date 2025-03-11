@@ -4,7 +4,8 @@ import { useState } from "react";
 import { ABeeZee } from "next/font/google";
 
 const link = ABeeZee({
-  weight: "400"
+  weight: "400",
+  subsets: ["latin"]
 })
 
 const Navbar = () => {

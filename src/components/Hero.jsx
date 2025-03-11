@@ -5,10 +5,12 @@ import Shapes from "./Shapes";
 
 const font = Titan_One({
   weight: "400",
+  subsets: ["latin"]
 });
 
 const subtitle = Indie_Flower({
   weight: "400",
+  subsets: ["latin"]
 });
 
 const Hero = () => {
