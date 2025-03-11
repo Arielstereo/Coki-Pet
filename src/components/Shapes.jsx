@@ -3,8 +3,8 @@
 const Shapes = () => {
   return (
     <svg
-		className="absolute right-0 top-0 text-orange-200 -z-10"
-		width="686"
+		className="absolute right-0 top-0 text-orange-200 -z-10 shape"
+		width="725"
 		height="630"
 		viewBox="0 0 686 630"
 		fill="currentColor"

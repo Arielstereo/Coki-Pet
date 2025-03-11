@@ -1,12 +1,17 @@
 "use client";
 
 import { useState } from "react";
+import { ABeeZee } from "next/font/google";
+
+const link = ABeeZee({
+  weight: "400"
+})
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <>
       <div className="bg-rose-500 text-slate-50 font-semibold text-center py-2">
         Entregas sin cargo en Monte Castro a partir de{" "}
         <span className="text-yellow-300 animate-pulse">$10.000</span>
@@ -19,13 +24,13 @@ const Navbar = () => {
           aria-hidden="true"
         ></a>
         <ul className="flex justify-center items-center gap-4">
-          <li>
+          <li className={`${link.className} hover:text-white`}>
             <a href="#food">Alimentos</a>
           </li>
-          <li>
+          <li className={`${link.className} hover:text-white`}>
             <a href="#accesories">Accesorios</a>
           </li>
-          <li>
+          <li className={`${link.className} hover:text-white`}>
             <a href="#contact">Contacto</a>
           </li>
         </ul>
@@ -60,7 +65,7 @@ const Navbar = () => {
           ></button>
         )}
       </nav>
-    </div>
+    </>
   );
 };
 
