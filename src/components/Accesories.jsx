@@ -2,9 +2,9 @@ import Card from "./Card";
 
 const Accesories = () => {
   return (
-    <div id="accesories" className="bg-white container mx-auto pb-16">
+    <div id="accesories" className="bg-white mx-auto pb-16">
       <div className="text-center mb-4 md:mb-12">
-        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-slate-50 py-2 md:py-4 ">
+        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-orange-200 py-2 md:py-4 ">
           Accesorios
         </h2>
       </div>

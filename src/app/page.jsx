@@ -3,6 +3,7 @@ import Products from "@/components/Products";
 import Footer from "@/components/Footer";
 import Brand from "@/components/Brand";
 import Hero from "@/components/Hero";
+import Incentives from "@/components/Incentives";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Brand />
       <Products />
+      <Incentives />
       <Accesories />
       <Footer />
     </div>

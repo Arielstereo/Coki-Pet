@@ -21,9 +21,9 @@ const Products = () => {
   };
 
   return (
-    <div id="food" className="container mx-auto bg-white">
+    <div id="food" className="mx-auto bg-white">
       <div className="text-center mb-4 md:mb-12">
-        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-slate-100 py-2 md:py-4 ">
+        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-orange-200 py-2 md:py-4 ">
           Alimentos sueltos
         </h2>
       </div>
