@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card = ({ nombre, descripcion, precio, img, promo }) => {
   return (
-    <div className="p-8 flex flex-wrap gap-4 rounded-lg w-full md:w-fit border border-orange-400 shadow-md bg-white">
+    <div className="p-8 flex flex-wrap gap-4 rounded-lg w-full md:w-fit">
       <Image
         src={img}
         alt="image"

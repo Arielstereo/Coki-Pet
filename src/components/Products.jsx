@@ -21,18 +21,12 @@ const Products = () => {
   };
 
   return (
-    <div id="food" className="container mx-auto bg-orange-50">
-      <div className="flex gap-2 md:gap-4 justify-center items-center">
-        <h2 className="py-16 md:py-32 text-3xl md:text-6xl font-semibold">
-          Nuestros productos
+    <div id="food" className="container mx-auto bg-white">
+      <div className="text-center mb-4 md:mb-12">
+        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-slate-100 py-2 md:py-4 ">
+          Alimentos sueltos
         </h2>
-        <i
-          className="icon-[fa-solid--paw] mt-0 md:mt-4 w-10 h-10 md:w-16 md:h-16"
-          role="img"
-          aria-hidden="true"
-        ></i>
       </div>
-      <h2 className="text-center text-xl md:text-2xl">- Alimentos sueltos por Kilo -</h2>
       <div className="flex flex-col gap-4">
         <div className="flex gap-4 items-center ml-16 md:ml-32 my-4">
           <label

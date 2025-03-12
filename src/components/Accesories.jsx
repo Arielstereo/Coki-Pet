@@ -2,16 +2,11 @@ import Card from "./Card";
 
 const Accesories = () => {
   return (
-    <div id="accesories" className="bg-slate-50 container mx-auto pb-16">
-      <div className="flex gap-4 justify-center items-center">
-        <h2 className="text-center py-16 md:py-32 text-3xl md:text-5xl font-semibold text-slate-900">
+    <div id="accesories" className="bg-white container mx-auto pb-16">
+      <div className="text-center mb-4 md:mb-12">
+        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-slate-50 py-2 md:py-4 ">
           Accesorios
         </h2>
-        <i
-          className="icon-[fa-solid--paw] mt-0 w-10 h-10 md:w-16 md:h-16"
-          role="img"
-          aria-hidden="true"
-        ></i>
       </div>
       <div className="gap-4 mx-2 md:mx-32 mb-32 grid grid-cols-1 md:grid-cols-3">
         <Card
