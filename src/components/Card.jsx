@@ -13,7 +13,7 @@ const Card = ({ nombre, descripcion, precio, img, promo }) => {
       <div className="flex flex-col gap-2 relative">
         <span className="font-bold">{nombre}</span>
         <span className="text-sm text-slate-600">{descripcion}</span>
-        <div className="flex flex-col md:flex-row gap-2 md:gap-12">
+        <div className="flex gap-2 md:gap-12">
           <span className="mt-4 bg-slate-100 rounded-full shadow-xl border border-orange-400 text-black px-6 py-2 text-end font-semibold text-lg w-fit">
             ${precio}
           </span>

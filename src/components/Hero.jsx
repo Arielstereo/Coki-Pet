@@ -15,10 +15,9 @@ const subtitle = Indie_Flower({
 
 const Hero = () => {
   return (
-    <section className="pt-16 md:pt-24 pb-48 relative z-10 overflow-hidden">
+    <section className="pt-16 pb-48 relative z-10 overflow-hidden">
       <Shapes />
       <Wsp />
-
       <div className="container px-4 mx-auto relative">
         <div className="gap-0 lg:gap-48 flex flex-col md:flex-row justify-center">
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 text-center">
@@ -35,9 +34,9 @@ const Hero = () => {
           </div>
           <div className="flex justify-center">
             <Image
-              src="/Hero.png"
+              src="/coki.png"
               alt="home"
-              width={400}
+              width={500}
               height={400}
               className="max-w-full h-full object-cover header-img"
             />
