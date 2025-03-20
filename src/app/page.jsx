@@ -7,7 +7,7 @@ import Incentives from "@/components/Incentives";
 
 export default function Home() {
   return (
-    <div className="bg-orange-100">
+    <div className="bg-white">
       <Hero />
       <Brand />
       <Products />

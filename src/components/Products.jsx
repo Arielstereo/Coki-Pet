@@ -23,7 +23,7 @@ const Products = () => {
   return (
     <div id="food" className="mx-auto bg-white">
       <div className="text-center mb-4 md:mb-12">
-        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-orange-200 py-2 md:py-4 ">
+        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-100 bg-slate-900 py-2 md:py-4 ">
           Alimentos sueltos
         </h2>
       </div>
@@ -52,6 +52,9 @@ const Products = () => {
               Dog Chow
             </option>
           </select>
+        </div>
+        <div>
+          <h3 className="text-slate-500 text-center text-wrap md:text-lg">* Si tu producto o marca no está en la lista, hacenos tu pedido por <span className="text-green-600 font-semibold animate-pulse">WhatsApp</span> .</h3>
         </div>
         <div className="gap-4 mx-2 md:mx-32 mb-32 grid grid-cols-1 md:grid-cols-3">
           {products.length > 0 ? (

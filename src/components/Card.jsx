@@ -8,7 +8,7 @@ const Card = ({ nombre, descripcion, precio, img, promo }) => {
         alt="image"
         width={400}
         height={100}
-        className="w-fit object-cover"
+        className="w-fit object-cover hover:scale-110 transform transition duration-500 ease-in-out"
       />
       <div className="flex flex-col gap-2 relative">
         <span className="font-bold">{nombre}</span>

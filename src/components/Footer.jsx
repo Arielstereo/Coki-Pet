@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="container mx-auto">
+    <footer id="contact" className="mx-auto bg-slate-50 border-t border-zinc-400">
       <div className="py-16 md:py-32">
-        <div className="flex flex-col gap-8 md:gap-12 md:flex-row justify-center mx-6 md:mx-32">
+        <div className="flex flex-col gap-8 md:gap-16 md:flex-row justify-center mx-6 md:mx-32">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-2">
               <h3 className="md:text-lg text-slate-600">Contacto</h3>
@@ -66,10 +66,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white mt-4">
-        <span className="flex gap-2 md:text-lg text-gray-600 justify-center py-4">
+      <div className="bg-slate-900 text-slate-100 mt-4">
+        <span className="flex gap-2 md:text-lg justify-center py-4">
           <i
-            className="icon-[meteor-icons--copyright] mt-1 w-6 h-6"
+            className="icon-[meteor-icons--copyright] md:mt-1 w-6 h-6"
             role="img"
             aria-hidden="true"
           ></i>

@@ -29,7 +29,7 @@ const Brand = () => {
   return (
     <section className="py-14 md:py-24 text-zinc-900">
       <div className="text-center mb-4 md:mb-12">
-        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-800 bg-orange-200 py-2 md:py-4 ">
+        <h2 className="font-bold text-[25px] lg:text-[35px] leading-none text-slate-100 bg-slate-900 py-2 md:py-4 ">
           Tus marcas favoritas
         </h2>
       </div>
